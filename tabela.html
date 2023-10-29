@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<table border="2" width="50%"> <!--Tabela com tamanho de dois pixels-->
+		<tr> <!-- "Table ROll" ou seja, linha da tabela-->
+			<th>Código</th> <!--"Table header", formatação de titulo para coluna de tabela-->
+			<th>Produto</th> 
+			<th>Preço</th>
+		</tr>
+		<tr> <!--Linha 2-->
+			<td>001</td> <!--Table data, dado que vai ser armazenado na linha-->
+			<td>Notebook</td> <!--TD's dentro do mesmo TR irão para o lado, fazendo assim as colunas da tabela-->
+			<td>R$ 2.500,00</td>
+		</tr>
+		<tr> <!--Linha 3-->
+			<td>002</td>
+			<td>Tablet</td>
+			<td>R$ 999,99</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Desconto</td> <!--extenção da linha (rowspan)-->
+			<td colspan="2">Cupom1 - R$10,00 </td> <!--extenção da coluna (colspan)-->
+		</tr>
+		<tr> 
+			<td colspan="2">Cupom2 - R$12,00 </td>
+		</tr>
+		<tr>
+			<td>Total</td>
+			<td colspan="2">R$ 3.478,98</td>
+		</tr>
+	</table>
+</body>
+
+</html>
